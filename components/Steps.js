@@ -49,7 +49,7 @@ const Steps = () => {
         {/* Step 1 */}
         <div className="bg-[#F5F7FA] rounded-xl shadow-md p-6">
           <div className="flex flex-col lg:flex-row items-center gap-6">
-            <div className="flex-1">
+            <div className="flex-1 lg:text-left px-6">
               <span className="inline-block text-xs font-semibold bg-gray-200 text-gray-700 px-3 py-1 rounded-full mb-2">
                 STEP 1
               </span>
@@ -61,7 +61,7 @@ const Steps = () => {
                 textual script.
               </p>
             </div>
-            <div className="flex-1 w-full max-w-md">
+            <div className="flex-1 w-full max-w-md ">
               <Image
                 src={step1Image}
                 alt="Step 1"
@@ -81,7 +81,7 @@ const Steps = () => {
                 className="rounded-2xl w-full object-cover"
               />
             </div>
-            <div className="flex-1">
+            <div className="flex-1 text-justify lg:text-left px-6">
               <span className="inline-block text-xs font-semibold bg-gray-200 text-gray-700 px-3 py-1 rounded-full mb-2">
                 STEP 2
               </span>
@@ -100,7 +100,7 @@ const Steps = () => {
         {/* Step 3 */}
         <div className="bg-[#F5F7FA] rounded-xl shadow-md p-6">
           <div className="flex flex-col lg:flex-row items-center gap-6">
-            <div className="flex-1">
+            <div className="flex-1 text-justify lg:text-left px-6">
               <span className="inline-block text-xs font-semibold bg-gray-200 text-gray-700 px-3 py-1 rounded-full mb-2">
                 STEP 3
               </span>
